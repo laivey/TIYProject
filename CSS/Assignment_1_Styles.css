@@ -1,0 +1,58 @@
+body {
+  background: #ffffff;
+}
+
+nav {
+
+
+}
+
+
+.main {
+  background-color: #ff4f21;
+
+}
+
+.main h1 {
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.main p{
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+
+}
+p {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+h2 {
+  font-family:sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+a {
+  font-family:sans-serif;
+  font-size: 12px;
+  color: #320050;
+}
+.reccomended{
+background-color: #ff4f21;
+}
+
+footer {
+
+
+}
