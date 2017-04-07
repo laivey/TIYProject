@@ -89,6 +89,17 @@ padding-top: 50px;
 
 }
 
+Price {
+  display: inline;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding-right: 20px;
+
+
+}
+
+
 
 
 section {
@@ -115,11 +126,31 @@ background-color: #ff4f21;
 .topics{
   background-color: #ffffff;
   clear: both;
+  padding: 80px;
 }
+.topics h2{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+
+
 
 .active{
   border-bottom: 5px solid #AA2502;
   color: #AA2502
+
+}
+
+.size{
+  color: #ff4f21;
+  padding-left: 10px;
+
+}
+
+.reviews {
+  color: #ff4f21;
+  display: right;
 }
 
 .tabs{
@@ -132,37 +163,52 @@ background-color: #ff4f21;
 /* Last */
 
 .products{
+  background: -moz-linear-gradient(left, #dd2574 0%, #dd2574 26%, #dd2574 29%, #dd2574 30%, #dd2574 30%, #dd2574 32%, #dd2574 33%, #dd2574 33%, #fe5030 61%, #fe5030 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #dd2574 0%,#dd2574 26%,#dd2574 29%,#dd2574 30%,#dd2574 30%,#dd2574 32%,#dd2574 33%,#dd2574 33%,#fe5030 61%,#fe5030 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #dd2574 0%,#dd2574 26%,#dd2574 29%,#dd2574 30%,#dd2574 30%,#dd2574 32%,#dd2574 33%,#dd2574 33%,#fe5030 61%,#fe5030 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    Overflow: auto;
   Overflow: auto;
   Zoom: 1;
   padding: 80px 50px 80px 0px;
 
 }
 
-.products h3 {
-  font-family:sans-serif;
-  font-size: 20px;
+.products p{
+  font-family: sans-serif;
   color: #ffffff;
-  padding-left: 80px;
+  font-size: 16px;
+  display: inline;
+
+
 }
+
+
+ProductPrice{
+  display: inline;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+
+
+
+}
+
 
 .ImgContainer {
   float: left;
   width: 30%;
+
 }
 
 .ImgContainer img{
   width: 60%;
   padding-left: 80px;
+  padding-bottom: 20px;
+
 
 }
 
-Price {
-  font-family: sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding-right: 20px;
 
-}
 
 .ProductPrice {
   font-family: sans-serif;
@@ -191,6 +237,7 @@ button {
   border: none;
   padding: 20px;
   text-align: center;
+  line-height: 3px;
 
 
 
