@@ -49,12 +49,15 @@ background: linear-gradient(to right, #dd2574 0%,#dd2574 26%,#dd2574 29%,#dd2574
   Zoom: 1;
   clear:both;
 padding: 80px 50px 80px 0px;
+width: 100%;
 }
 
 main h1 {
   font-family: sans-serif;
   color: #ffffff;
   font-size: 40px;
+  padding-right: 20px;
+
 
 }
 
@@ -66,12 +69,13 @@ main p {
   border-bottom: 1px dashed #AB2400;
   padding-top: 20px;
   padding-bottom: 20px;
-
+padding-right: 20px;
 
 }
 
 main a {
   color: #ffffff;
+  padding-left: 70px;
 
 
 }
@@ -128,6 +132,7 @@ background-color: #ff4f21;
   clear: both;
   padding: 80px;
 }
+
 .topics h2{
   font-size: 20px;
   font-family: sans-serif;
@@ -166,32 +171,24 @@ background-color: #ff4f21;
   background: -moz-linear-gradient(left, #dd2574 0%, #dd2574 26%, #dd2574 29%, #dd2574 30%, #dd2574 30%, #dd2574 32%, #dd2574 33%, #dd2574 33%, #fe5030 61%, #fe5030 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, #dd2574 0%,#dd2574 26%,#dd2574 29%,#dd2574 30%,#dd2574 30%,#dd2574 32%,#dd2574 33%,#dd2574 33%,#fe5030 61%,#fe5030 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #dd2574 0%,#dd2574 26%,#dd2574 29%,#dd2574 30%,#dd2574 30%,#dd2574 32%,#dd2574 33%,#dd2574 33%,#fe5030 61%,#fe5030 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    Overflow: auto;
   Overflow: auto;
+
   Zoom: 1;
   padding: 80px 50px 80px 0px;
+  width: 100%;
 
 }
 
 .products p{
   font-family: sans-serif;
   color: #ffffff;
-  font-size: 16px;
-  display: inline;
+  font-size: 20px;
+  margin: 1px;
+  padding-bottom: 10px;
 
 
 }
 
-
-ProductPrice{
-  display: inline;
-  font-family: sans-serif;
-  color: #ffffff;
-  font-size: 16px;
-
-
-
-}
 
 
 .ImgContainer {
@@ -201,10 +198,20 @@ ProductPrice{
 }
 
 .ImgContainer img{
-  width: 60%;
+  width: 70%;
   padding-left: 80px;
   padding-bottom: 20px;
 
+
+}
+
+.SneakerName{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #ffffff;
+  padding-left: 80px;
+  float: left;
+  margin-right: 10px;
 
 }
 
@@ -215,8 +222,26 @@ ProductPrice{
   color: #ffffff;
   font-size: 20px;
   padding-left: 80px;
+
+
 }
 
+
+span{
+
+  font-size: 10px;
+vertical-align: super;
+
+}
+
+
+
+.ProductSeason{
+  color: #5B002C;
+  font-family: sans-serif;
+  font-size: 10px;
+  padding-left: 85px;
+}
 
 
 a {
@@ -229,7 +254,7 @@ a {
 button {
   padding: 10px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   color: #ff4f21;
   background: #ffffff;
   border-radius: 4px;
@@ -241,6 +266,12 @@ button {
 
 
 
+}
+
+button:hover {
+background-color: #ff4f21;
+color: #ffffff;
+border-style: solid;
 }
 
 p {
@@ -271,10 +302,12 @@ a {
 
 .highlight{
   background-color: #ffeeea;
-  padding: 20px;
+  padding: 10px;
   width:100%;
   text-align: center;
 }
+
+
 
 
 footer {
